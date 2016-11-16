@@ -1,0 +1,24 @@
+{
+  "name": "material-animation",
+  "version": "1.0.0",
+  "description": "animation library for material-design-lite and angular.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidbielik/material-animation.git"
+  },
+  "keywords": [
+    "material-design",
+    "mdl",
+    "angular"
+  ],
+  "author": "David Bielik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidbielik/material-animation/issues"
+  },
+  "homepage": "https://github.com/davidbielik/material-animation#readme"
+}
