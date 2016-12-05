@@ -9,6 +9,7 @@
   filter: alpha(opacity=0);
 }
 
+.material-animation.material-animation__slide-in-right .material-animation.material-animation__animated,
 .material-animation.material-animation__slide-in-right .material-animation.material-animation__animating {
   visibility: visible;
   -ms-transform: scale3d(1, 1, 1);

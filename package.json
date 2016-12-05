@@ -1,6 +1,6 @@
 {
   "name": "material-animation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "animation library for material-design-lite and angular.js",
   "main": "index.js",
   "scripts": {
