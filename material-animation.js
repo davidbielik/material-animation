@@ -21,7 +21,7 @@
 
         function animate(elements, count){
             var delay;
-            var multiplier = 0.07;
+            var multiplier = 0.06;
             for (var i = 0; i < count; i++) {
                 delay = (i * multiplier);
                 angular.element(elements[i]).addClass('material-animation material-animation__animating');

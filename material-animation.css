@@ -1,16 +1,15 @@
-.material-animation.material-animation__slide-in-right > * {
-  visibility: hidden; 
-  -ms-transform: translate3d(250px, 250px, 0);
-  -webkit-transform: translate3d(250px, 250px, 0);
-  transform: translate3d(250px, 250px, 0);
-  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-  transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-  opacity: 0;
-  filter: alpha(opacity=0);
+.material-animation.material-animation__slide-in-right .material-animation.material-animation__animating {
+  visibility: hidden !important;
+  -ms-transform: translate3d(250px, 250px, 0) !important;
+  -webkit-transform: translate3d(250px, 250px, 0) !important;
+  transform: translate3d(250px, 250px, 0) !important;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.55, 0, 0.1, 1) !important;
+  transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1) !important;
+  opacity: 0 !important;
+  filter: alpha(opacity=0) !important;
 }
 
-.material-animation.material-animation__slide-in-right .material-animation.material-animation__animated,
-.material-animation.material-animation__slide-in-right .material-animation.material-animation__animating {
+.material-animation.material-animation__slide-in-right .material-animation.material-animation__animated {
   visibility: visible;
   -ms-transform: scale3d(1, 1, 1);
   -webkit-transform: scale3d(1, 1, 1);
